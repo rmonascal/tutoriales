@@ -332,3 +332,17 @@ Para ejecutar el programa, puede hacer:
 ```
 ./dijkstra < dijkstra.in
 ```
+
+## Ejercicios recomendados en SPOJ
+
+A continuación algunos ejercicios con los que pueden practicar aplicar Dijkstra a problemas particulares.
+
+### Ejercicios de práctica
+
+* Easy Dijkstra Problem: [EZDIJKST](https://www.spoj.com/problems/EZDIJKST/)
+* Mice and Maze: [MICEMAZE](https://www.spoj.com/problems/MICEMAZE/)
+
+### Ejercicios _interesantes_
+
+* Almost Shortest Path: [SAMER08A](https://www.spoj.com/problems/SAMER08A/)
+* Magical Bridges: [AMR11F](https://www.spoj.com/problems/AMR11F/)
