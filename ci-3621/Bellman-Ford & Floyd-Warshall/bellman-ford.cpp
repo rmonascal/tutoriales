@@ -32,10 +32,10 @@ bool bellman_ford(int desde) {
 		bool cambio = false;
 		for (int i = 0; i < N; i++)
 			for (int j = 0; j < N; j++)
-			if (costo_minimo[j] + grafo[j][i] < costo_minimo[i]) {
-				costo_minimo[i] = costo_minimo[j] + grafo[j][i];
-				cambio = true;
-			}
+				if (costo_minimo[j] + grafo[j][i] < costo_minimo[i]) {
+					costo_minimo[i] = costo_minimo[j] + grafo[j][i];
+					cambio = true;
+				}
 		if (!cambio)
 			break;
 	}
