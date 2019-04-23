@@ -140,7 +140,7 @@ Esto debe hacerse para cada posible `i` y cada posible `j`, además llevando con
 					costo_minimo[i] = costo_minimo[j] + grafo[j][i];
 					cambio = true;
 				}
-			...
+		...
 ```
 
 Si no hubo cambio alguno en una iteración tampoco habrán cambios futuros, por lo que no es necesario continuar iterando.
